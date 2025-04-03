@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Jwt?createDatabaseIfNotExist=true
+    username: root
+    password: methmin123
+  jpa:
+    hibernate:
+      ddl-auto: update
