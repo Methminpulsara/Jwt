@@ -13,7 +13,7 @@ import edu.icet.ecom.util.Role;
 public class User {
 
     private Long UserId;
-    private String email;
+    private String username;
     private String password;
     private Role role;
 

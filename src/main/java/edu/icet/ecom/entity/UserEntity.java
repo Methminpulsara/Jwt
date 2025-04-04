@@ -24,7 +24,7 @@ public class UserEntity implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long UserId;
 
-    private String email;
+    private String username;
     private String password;
 
     @Enumerated(value = EnumType.STRING)
