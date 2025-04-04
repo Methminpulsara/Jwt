@@ -3,7 +3,7 @@ package edu.icet.ecom.filter;
 // This class is used to filter incoming requests and authenticate them using JWT tokens
 
 import edu.icet.ecom.service.JWTService;
-import edu.icet.ecom.service.UserServiceImpl;
+import edu.icet.ecom.service.UserDetailsServiceImpl;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
@@ -25,7 +25,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 
     private final JWTService jwtService;
-    private final UserServiceImpl UserDetailsService;
+    private final UserDetailsServiceImpl UserDetailsService;
 
 
     @Override
